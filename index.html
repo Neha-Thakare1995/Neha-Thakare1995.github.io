@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body >
+    <div class="main-wrapper">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+
+                <b>Neha Thakare</b>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Home Section -->
+        <header id="home" class="header">
+            <div class="overlay"></div>
+
+            <div class="header-content container">
+                <h1 class="header-title">
+                    <span class="up">Hi there, I'm</span>
+                    <span class="down"> Neha Thakare 😀</span>
+                </h1>
+                <p class="header-tagline">Passionate about Building Cutting-Edge Software</p>
+                <p class="header-subtitle">A Developer Who Loves Challenges</p>
+                <p class="header-intro">Welcome to my portfolio! Here you can find a showcase of my work and a bit about what drives me in the tech world.</p>
+                <button class="btn btn-primary" onclick="visitMyWorks()">Dive In</button>
+            </div>
+            
+
+        </header>
+    
+        <section id="about">
+            <div class="about-container">
+                <img src="NehaPhoto2.jpeg" alt="Neha Thakare" class="about-photo">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Welcome! I’m Neha Thakare, a seasoned software developer and database specialist with over 5 years of experience in crafting innovative and scalable solutions. My expertise lies in leveraging .NET, Python, and SQL to build robust applications and optimize complex systems. I thrive on transforming challenges into opportunities for growth and efficiency.</p>
+                    <p>Having recently completed my Master’s in Computer Science from Memorial University of Newfoundland, I am eager to channel my skills and passion into impactful full-time roles. Explore my portfolio to see my work, and let’s connect if you’re looking for a dedicated professional ready to drive success and innovation in your next project.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Projects Section -->
+      
+        <section id="projects">
+            <h2 style="text-align: center;">Projects</h2>
+            <div class="row">
+                <div class="col-md-6" style="padding: 30px">
+                    <div class="card-container">
+                        <div class="card">
+                            <a href="https://github.com/Neha-Thakare1995/Ocean-Data-Map-Project.git" target="_blank">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        
+                                        <img src="OceanNavigator.jpg" class="portfolio-card-img" alt="Project 1">
+                                        <h5>DFO - Ocean Data Map Project (Ocean Navigator)</h5>
+                                    </div>
+                                    <div class="card-back">
+                                        <p class="font-weight-normal">
+                                            Ocean Navigator is a data visualization tool for 3D ocean model output, utilizing NetCDF4 files with SQLite3 for efficient data management, surpassing the THREDDS approach. Its server-side component, built with Python and Flask, provides metadata queries, generates detailed plots using matplotlib, and creates cached 256x256 pixel tiles for integration with OpenLayers. 
+                                            The React-based user interface supports global navigation, point selection, and custom data extraction in a responsive, single-page application.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 30px">
+                    <div class="card-container">
+                        <div class="card">
+                            <a href="https://github.com/Neha-Thakare1995/Real-Time-Data-Streaming.git" target="_blank">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                       
+                                        <img src="realtime1.png" class="portfolio-card-img" alt="Project 2">
+                                        <h5>Real-Time Data Streaming Visualization and Control Interface</h5>
+                                    </div>
+                                    <div class="card-back">
+                                        <p class="font-weight-normal">
+                                            The framework is built on D3.js (Data-Driven Documents), a powerful JavaScript library known for its flexibility and capability to bind data to the DOM and apply data-driven transformations. D3.js enables the creation of sophisticated and dynamic visualizations by allowing direct control over each element of the visualization.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 30px">
+                    <div class="card-container">
+                        <div class="card">
+                            <a href="https://github.com/Neha-Thakare1995/Efficient-Data-Preprocessing-Techniques.git" target="_blank">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        
+                                        <img src="Efficientdata.png" class="portfolio-card-img" alt="Project 3">
+                                        <h5>Efficient Data Preprocessing Techniques</h5>
+                                    </div>
+                                    <div class="card-back">
+                                        <p class="font-weight-normal">
+                                            This project covers several important aspects of preprocessing and modeling in datasets with missing values and outliers.
+                                        
+                                            This project is built with Python, Jupyter Notebook, and extensive datasets.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 30px">
+                    <div class="card-container">
+                        <div class="card">
+                            <a href="https://github.com/Neha-Thakare1995/Visualization-and-Solutions-for-Organizational-Improvement.git" target="_blank">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        
+                                        <img src="Visualization.png" class="portfolio-card-img" alt="Project 4">
+                                        <h5>Visualization-and-Solutions-for-Organizational-Improvement</h5>
+                                    </div>
+                                    <div class="card-back">
+                                        <p class="font-weight-normal">
+                                            The purpose of this service is to propose you with the new business idea and give some clear visualization to improve the current state of performance of the organization. Here in final project delivery, I came up with the complete visuals and theory of how the improvement of organization/company might take place using both the goal’s resultant visualization. Along with that I have also suggested few solutions based on the final result and observation of both the goals.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- History Section -->
+        <section id="history">
+            <h2 style="text-align: center;">Work Experience And Educational Background</h2>
+            <div class="timeline">
+                <div class="timeline-container left-container">
+                    <img src="briefcase (1).png" alt="Image">
+                    <div class="text-box left">
+                        <h2>Fisheries and Oceans Canada</h2>
+                        <h4>Software Developer/Database Administrator</h4>
+                        <small>September 2023 - Current</small>
+                        <ul>
+                            <li>Managed and optimized databases (MySQL/MariaDB, Oracle) and developed Python scripts for automation and data analysis.</li>
+                            <li>Created and maintained detailed documentation for database design and maintenance procedures.</li>
+                            <li>Implemented UI testing automation with Puppeteer and participated in Agile development, including sprint planning and daily stand-ups.</li>
+                        </ul>
+                   
+                    </div>
+                </div>
+                <div class="timeline-container right-container">
+                    <img src="briefcase (1).png" alt="Image">
+                    <div class="text-box right">
+                        <h2>Subway - Canada</h2>
+                        <h4>Supervisor (Part-Time)</h4>
+                        <small>October 2022- Current</small>
+                        <ul>
+                            <li><b>Manage Operations:</b> Oversee daily tasks, ensure cleanliness, and maintain health standards.</li>
+                            <li><b>Supervise Staff:</b> Schedule shifts, train employees, and motivate the team.</li>
+                            <li><b>Customer Relations:</b> Address customer inquiries and complaints, ensuring satisfaction.</li>
+                        </ul>
+                   
+                    </div>
+                </div>
+                <div class="timeline-container left-container">
+                    <img src="graduation1.png" alt="Image">
+                    <div class="text-box left">
+                        <h2>Memorial University of Newfoundland</h2>
+                        <h4>Master of Science Computer Science</h4>
+                        <small>September 2022 - August 2024</small>
+                        <ul>
+                            <li> <b>Database Systems:</b> Expertise in SQL, PL/SQL, and database optimization.</li>
+                            <li> <b>Algorithms and Data Structures:</b> Applied advanced algorithms to solve complex problems.</li>
+                            <li> <b>Software Engineering:</b> Implemented development methodologies, design patterns, and rigorous testing.</li>
+                            <li> <b>Machine Learning:</b> Proficient in machine learning algorithms, data processing, and predictive modeling.</li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                <div class="timeline-container right-container">
+                    <img src="briefcase (1).png" alt="Image">
+                    <div class="text-box right">
+                        <h2>Wipro Limited</h2>
+                        <h4>Senior Project Engineer - Software Developer (.NET) </h4>
+                        <small>July 2020 - May 2022</small>
+                        <ul>
+                            <li>Developed and maintained banking and insurance modules using SQL, Python, MVC, .NET, C#, JavaScript, and Web Services/APIs.</li>
+                            <li>Created both Windows and web applications for frontend and backend, utilizing Swagger and Postman for thorough API and Web-Service testing.</li>
+                            <li>Led a team of five at the client location, overseeing project delivery and coordination.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-container left-container">
+                    <img src="briefcase (1).png" height="100px" alt="Image">
+                    <div class="text-box left">
+                        <h2>Cognizant Technologies Solutions</h2>
+                        <h4>Programmer Analyst</h4>
+                        <small>November 2018 - April 2020</small>
+                        <ul>
+                            <li>Developed data solutions using SQL, VB.NET, ASP.NET, and .NET for international clients.</li>
+                            <li>Created web applications for insurers using Angular and ReactJS. </li>
+                            <li>Collaborated with stakeholders to meet banking and insurance industry standards and requirements.</li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                <div class="timeline-container right-container">
+                    <img src="briefcase (1).png" alt="Image">
+                    <div class="text-box right">
+                        <h2>Selenite Business Solutions</h2>
+                        <h4>Test Engineer – Automation Software Tester</h4>
+                        <small>March 2018 - October 2018</small>
+                        <ul>
+                            <li>Responsible for creating complete automation scripts to test the workflow of Electricity Bill Fetching – Analyzing
+                                – Validating – Protesting – Approvals – Payments – Receipt Generation for the customers.</li>
+                            </li>
+                            <li>Develop automation scripts using Selenium in Java.</li>
+                            <li>Performed load, security, regression, and performance testing for various application modules.</li>
+                        </ul>
+                    </div>
+                </div>
+             
+                <div class="timeline-container left-container">
+                    <img src="graduation1.png" alt="Image">
+                    <div class="text-box left">
+                        <h2>R.T.M.N.U. Nagpur, India</h2>
+                        <h4>Bachelors of Engineering - Computer Science</h4>
+                        <small> June 2013 - July 2017</small>
+                        <ul>
+                            <li> <b>CGPA:</b> 8.15/10</li>
+                            <li>Elected captain for inter-college girl’s Cricket and Football team.</li>
+                            <li>Certified NSS members volunteer for various environmental efforts, including tree planting.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Skills Section -->
+
+        <section id="skills">
+            <h2 style="text-align: center;">Skills</h2>
+            <div class="skill-container">
+
+                <div class="skill-tile">
+                    <img src="internet.png" alt="HTTP Principles Icon" />
+                    <h3>HTTP Principles</h3>
+                    <p>Understanding of HTTP principles and methods.</p>
+                </div>
+
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker Icon" />
+                    <h3>Docker</h3>
+                    <p>Containerization using Docker for efficient application deployment.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="web.png" alt="AWS Icon" style="height: 44px"/>
+                    <h3>AWS</h3>
+                    <p>Cloud services and infrastructure management with AWS.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="devops.png" alt="CI/CD Icon" style="height: 44px "/>
+                    <h3>CI/CD</h3>
+                    <p>Continuous Integration and Continuous Deployment for streamlined development processes.</p>
+                </div>
+                
+                <div class="skill-tile">
+                    <img src="testing.png" alt="Selenium Icon" style="height: 44px "/>
+                    <h3>Automation Testing</h3>
+                    <p>Automation Testing, Selenium, Java, Test Script, Unit Testing.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Icon" />
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, Bootstrap, jQuery, Mocha.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/database.png" alt="Database Management Icon" />
+                    <h3>Data Science</h3>
+                    <p>NumPy, Seaborn, Pandas, Matplotlib, Virtualization.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git Icon" />
+                    <h3>Version Control</h3>
+                    <p>GIT, VB.NET, MVC, C#, .NET, Python, JavaScript, Visual Studio.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/api.png" alt="Backend Development Icon" />
+                    <h3>Backend Development</h3>
+                    <p>Backend, API, Web Services, Swagger, Postman.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React Icon" />
+                    <h3>Frontend Development</h3>
+                    <p>React, TypeScript, SCSS/LESS.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="database-management.png" alt="Database Management Icon" style="height: 44px"/>
+                    <h3>Database Management</h3>
+                    <p>MariaDB/SQL, Oracle, NoSQL Database, Performance Optimization, and basic network troubleshooting.</p>
+                </div>
+                <div class="skill-tile">
+                    <img src="https://img.icons8.com/color/48/000000/document.png" alt="Technical Skills Icon" />
+                    <h3>Technical Skills</h3>
+                    <p>Database Management, Technical Design Documentation, Agile Methodology, OOPs.</p>
+                </div>
+            </div>
+        </section>
+                       
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+            <h2 style="text-align: center;">Contact</h2>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/neha-thakare-aa1115125" target="_blank" title="My LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Neha-Thakare1995/" target="_blank" title = "My GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:nehathakare27.1995@gmail.com" title="Send me an email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="NehaThakare_Resume.pdf" target="_blank" rel="noopener noreferrer" download title="Download my resume">
+                    <i class="fas fa-file-download"></i>
+                </a>
+                
+            </div>
+        </section>
+        
+    </div>
+    
+    <script src="script.js"></script>
+ 
+
+    <footer>
+        <p>&copy; 2024 Neha Thakare. All rights reserved. </p>
+        <p>Made by Neha Thakare. Thank you for visiting my website! 🙂 </p>
+    </footer>
+</body>
+</html>
